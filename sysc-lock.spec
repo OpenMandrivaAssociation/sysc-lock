@@ -12,6 +12,7 @@ Source1:	%{name}-%{version}-vendor.tar.xz
 
 BuildRequires:	golang
 BuildRequires:	pkgconfig(pam)
+BuildRequires:  egl-devel
 
 %description
 A Wayland session locker for sysc-shell, with compositor-enforced locking 
